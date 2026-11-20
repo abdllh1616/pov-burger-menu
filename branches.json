@@ -1,0 +1,44 @@
+{
+  "_not": "whatsapp: ülke kodlu, + ve boşluk olmadan (örn. 905xxxxxxxxx). address alanlarına açık adresi yazın.",
+  "branches": [
+    {
+      "id": "caddebostan",
+      "name": "Caddebostan",
+      "city": "İstanbul",
+      "address": "Caddebostan, Kadıköy / İstanbul",
+      "phone": "0543 439 17 03",
+      "whatsapp": "905434391703",
+      "instagram": "povburgeristanbul",
+      "lat": 40.971274,
+      "lng": 29.062512,
+      "mapsQuery": "Pov Burger Caddebostan",
+      "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.466081418411!2d29.060937712596193!3d40.971273921581236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac700287157f9%3A0x51890b54cd583c0e!2sPov%20Burger%20Caddebostan!5e0!3m2!1str!2str!4v1794334150580!5m2!1str!2str"
+    },
+    {
+      "id": "fsm",
+      "name": "FSM",
+      "city": "Bursa",
+      "address": "FSM Bulvarı, Nilüfer / Bursa",
+      "phone": "0543 411 10 07",
+      "whatsapp": "905434111007",
+      "instagram": "povburger",
+      "lat": 40.213455,
+      "lng": 28.976775,
+      "mapsQuery": "Pov Burger FSM Bursa",
+      "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.80255598499!2d28.975198412574407!3d40.213454767865755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca11e08caeb3f3%3A0xf2c859f5d9ee6689!2sPov%20Burger!5e0!3m2!1str!2str!4v1794334242599!5m2!1str!2str"
+    },
+    {
+      "id": "ozluce",
+      "name": "Özlüce",
+      "city": "Bursa",
+      "address": "Özlüce, Nilüfer / Bursa",
+      "phone": "0533 975 52 16",
+      "whatsapp": "905339755216",
+      "instagram": "povburger",
+      "lat": 40.224155,
+      "lng": 28.914494,
+      "mapsQuery": "POV Burger Özlüce",
+      "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.3214525554868!2d28.912919312574346!3d40.22415446721676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca119c3c752031%3A0x5e0e21b803e0815c!2zUE9WIEJ1cmdlciDDlnpsw7xjZQ!5e0!3m2!1str!2str!4v1794334270095!5m2!1str!2str"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "_not": "Kaynak: POV Burger menü PDF'i (fiyat güncelleme 15.02.2026). Fiyatlar TL, KDV dahil. Bu dosyayı hem web sitesi hem mobil uygulama kullanır; fiyat değişince yalnızca burayı güncelleyin.",
+  "updated": "2026-02-15",
+  "currency": "₺",
+  "hours": [
+    { "days": "Pazartesi – Cumartesi", "open": "11:45", "close": "22:00" },
+    { "days": "Pazar", "open": "13:00", "close": "22:00" }
+  ],
+  "allergens": {
+    "gluten": "Gluten",
+    "sut": "Süt ürünleri",
+    "yumurta": "Yumurta",
+    "hardal": "Hardal",
+    "soya": "Soya",
+    "susam": "Susam"
+  },
+  "optionSets": {
+    "menu": [
+      { "id": "patates", "name": "Patates", "choices": ["Sade patates", "Baharatlı patates"] },
+      { "id": "icecek", "name": "İçecek", "choices": ["Coca Cola", "Coca Cola Zero", "Uludağ Gazoz", "Uludağ Portakallı", "Sprite", "Fanta", "Ayran", "Fuse Tea Mango-Şeftali", "Soda", "Su"] }
+    ]
+  },
+  "categories": [
+    {
+      "id": "burgerler",
+      "name": "Burgerler",
+      "items": [
+        { "id": "pov", "name": "POV", "price": 460, "desc": "2x60 gr burger köftesi, trüf mayonez, karamelize soğan, POV turşu, burger peyniri", "allergens": ["gluten", "sut", "yumurta", "soya"], "tags": ["imza"] },
+        { "id": "cheeseburger", "name": "Cheeseburger", "price": 450, "desc": "2x60 gr burger köftesi, burger sos, iceberg marul, burger peyniri", "allergens": ["gluten", "sut", "hardal", "yumurta"] },
+        { "id": "klasik", "name": "Klasik", "price": 455, "desc": "2x60 gr burger köftesi, sarımsaklı mayonez, el yapımı turşu, ata tohumu domates, iceberg marul, kırmızı soğan, burger peyniri", "allergens": ["gluten", "sut", "yumurta"] },
+        { "id": "smash", "name": "Smash", "price": 455, "desc": "2x60 gr burger köftesi, burger sos, POV turşu, iceberg marul, kırmızı soğan, burger peyniri", "allergens": ["gluten", "sut", "yumurta", "hardal"] },
+        { "id": "teksas", "name": "Teksas", "price": 455, "desc": "2x60 gr burger köftesi, acı tatlı barbekü, kültür mantarı, kibrit patates, füme antrikot, burger peyniri", "allergens": ["gluten", "sut", "yumurta"], "tags": ["acı"] },
+        { "id": "jalepeno", "name": "Jalepeno", "price": 480, "desc": "2x60 gr burger köftesi, jalepeno biberi, füme et reçeli, sarımsaklı mayonez, burger peyniri", "allergens": ["gluten", "sut", "yumurta"], "tags": ["acı"] },
+        { "id": "relish", "name": "Relish", "price": 480, "desc": "2x60 gr burger köftesi, trüf mayonez, karamelize soğan, acı turşu reçeli, füme antrikot, burger peyniri", "allergens": ["gluten", "sut", "yumurta", "soya"] },
+        { "id": "triple-g", "name": "Triple G", "price": 750, "desc": "6x60 gr burger köftesi, trüf mayonez, karamelize soğan, POV turşu, burger peyniri", "allergens": ["gluten", "sut", "yumurta", "soya"] },
+        { "id": "triple-g-s", "name": "Triple G S.", "price": 790, "desc": "6x60 gr burger köftesi, trüf mayonez, karamelize soğan, acı turşu reçeli, füme antrikot, burger peyniri", "allergens": ["gluten", "sut", "yumurta", "soya"] },
+        { "id": "louisiana", "name": "Louisiana", "price": 375, "desc": "Çıtır tavuk, acılı mayonez, POV turşu, coleslaw", "allergens": ["gluten", "yumurta", "sut", "susam"], "tags": ["tavuk", "acı"] },
+        { "id": "tokyo", "name": "Tokyo", "price": 375, "desc": "Çıtır tavuk, sarımsaklı mayonez, thai salata, kavrulmuş susam, portakal ponzu", "allergens": ["gluten", "yumurta", "soya", "sut", "susam"], "tags": ["tavuk"] },
+        { "id": "chipotle", "name": "Chipotle", "price": 375, "desc": "Çıtır tavuk, chipotle mayonez, el yapımı turşu, iceberg marul, burger peyniri", "allergens": ["gluten", "sut", "yumurta", "hardal"], "tags": ["tavuk"] }
+      ]
+    },
+    {
+      "id": "menuler",
+      "name": "Menüler",
+      "note": "Seçiminize göre baharatlı veya sade patates ve dilediğiniz içecek ile servis edilir.",
+      "items": [
+        { "id": "pov-menu", "name": "POV Menü", "price": 630, "options": "menu", "allergens": ["gluten", "sut", "yumurta", "soya"], "tags": ["imza"] },
+        { "id": "cheeseburger-menu", "name": "Cheeseburger Menü", "price": 620, "options": "menu", "allergens": ["gluten", "sut", "hardal", "yumurta"] },
+        { "id": "klasik-menu", "name": "Klasik Menü", "price": 625, "options": "menu", "allergens": ["gluten", "sut", "yumurta"] },
+        { "id": "smash-menu", "name": "Smash Menü", "price": 625, "options": "menu", "allergens": ["gluten", "sut", "yumurta", "hardal"] },
+        { "id": "teksas-menu", "name": "Teksas Menü", "price": 625, "options": "menu", "allergens": ["gluten", "sut", "yumurta"], "tags": ["acı"] },
+        { "id": "jalepeno-menu", "name": "Jalepeno Menü", "price": 650, "options": "menu", "allergens": ["gluten", "sut", "yumurta"], "tags": ["acı"] },
+        { "id": "relish-menu", "name": "Relish Menü", "price": 650, "options": "menu", "allergens": ["gluten", "sut", "yumurta", "soya"] },
+        { "id": "triple-g-menu", "name": "Triple G Menü", "price": 900, "options": "menu", "allergens": ["gluten", "sut", "yumurta", "soya"] },
+        { "id": "triple-g-s-menu", "name": "Triple G S. Menü", "price": 940, "options": "menu", "allergens": ["gluten", "sut", "yumurta", "soya"] },
+        { "id": "louisiana-menu", "name": "Louisiana Menü", "price": 560, "options": "menu", "allergens": ["gluten", "yumurta", "sut", "susam"], "tags": ["tavuk", "acı"] },
+        { "id": "tokyo-menu", "name": "Tokyo Menü", "price": 560, "options": "menu", "allergens": ["gluten", "yumurta", "soya", "sut", "susam"], "tags": ["tavuk"] },
+        { "id": "chipotle-menu", "name": "Chipotle Menü", "price": 560, "options": "menu", "allergens": ["gluten", "sut", "yumurta", "hardal"], "tags": ["tavuk"] }
+      ]
+    },
+    {
+      "id": "ek-lezzetler",
+      "name": "Ek Lezzetler",
+      "items": [
+        { "id": "sade-patates", "name": "Sade Patates", "price": 130 },
+        { "id": "baharatli-patates", "name": "Baharatlı Patates", "price": 130 },
+        { "id": "truflu-patates", "name": "Trüflü Maydanozlu Parmesanlı Patates", "price": 200, "allergens": ["sut"] },
+        { "id": "corn-tempura", "name": "Corn Tempura", "price": 180, "desc": "Sumaklı mayonez ile servis edilir", "allergens": ["gluten", "yumurta"] },
+        { "id": "mersin-patates", "name": "Mersin Patates", "price": 180, "desc": "Sos ile servis edilir", "allergens": ["gluten", "yumurta"] },
+        { "id": "citir-tavuk", "name": "Çıtır Tavuk", "price": 180, "desc": "Chipotle mayonez ile servis edilir", "allergens": ["gluten", "yumurta"], "tags": ["tavuk"] },
+        { "id": "sos-tabagi", "name": "Sos Tabağı (5 çeşit)", "price": 160, "desc": "Trüflü mayonez, acılı mayonez, sarımsaklı mayonez, acı sos, burger sos", "allergens": ["yumurta"] },
+        { "id": "ilave-kofte-60", "name": "İlave Köfte 60 gr", "price": 90 },
+        { "id": "ilave-kofte-120", "name": "İlave Köfte 120 gr", "price": 160 },
+        { "id": "fume", "name": "Füme 20 gr", "price": 80 },
+        { "id": "burger-peyniri", "name": "Burger Peyniri", "price": 30, "allergens": ["sut"] }
+      ]
+    },
+    {
+      "id": "tatli",
+      "name": "Tatlı",
+      "items": [
+        { "id": "baklava", "name": "Baklava", "price": 250, "desc": "Antep fıstıklı pastacı kreması, çıtır baklava parçası, toz Antep fıstığı" }
+      ]
+    },
+    {
+      "id": "icecekler",
+      "name": "İçecekler",
+      "items": [
+        { "id": "cola", "name": "Coca Cola / Zero", "desc": "300 ml", "price": 90 },
+        { "id": "gazoz", "name": "Uludağ Gazoz", "desc": "250 ml", "price": 90 },
+        { "id": "portakalli", "name": "Uludağ Portakallı", "desc": "250 ml", "price": 90 },
+        { "id": "sprite", "name": "Sprite", "desc": "300 ml", "price": 90 },
+        { "id": "fanta", "name": "Fanta", "desc": "300 ml", "price": 90 },
+        { "id": "ayran", "name": "Ayran", "desc": "245–265 ml", "price": 90 },
+        { "id": "fuse-tea", "name": "Fuse Tea Mango-Şeftali", "desc": "330 ml", "price": 90 },
+        { "id": "soda", "name": "Soda", "desc": "200 ml", "price": 40 },
+        { "id": "su", "name": "Su", "desc": "400 ml", "price": 40 }
+      ]
+    }
+  ]
+}
